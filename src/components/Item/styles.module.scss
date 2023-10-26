@@ -1,0 +1,20 @@
+.item {
+    display: grid;
+    place-items: center;
+    background-color: #fbfcfd;
+    border-radius: 6px;
+    border: 2px solid #bec9ca;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    align-content: end;
+    
+
+    &__title {
+        font-weight: 300;
+    }
+
+    &__price {
+        font-weight: 800;
+    }
+}

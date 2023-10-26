@@ -1,0 +1,42 @@
+.header {
+    background-color: #93a7a6;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+
+
+    &__itemsBox {
+        display: flex;
+        align-items: center;
+        
+        cursor: pointer;
+        padding: 0px 30px;
+        margin: 0 20px;
+        border: 2px solid black;
+        border-radius: 6px;
+        transition: 1s;
+        height: 62px;
+        box-sizing: content-box;
+        &:hover {
+            background-color: #deefed;
+        }
+
+        p {
+            font-size: 46px;
+        }
+
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 80px;
+    width: 86%;
+
+    
+}
